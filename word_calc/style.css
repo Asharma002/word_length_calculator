@@ -1,0 +1,24 @@
+*{
+    text-align: center;
+    background-color:#000000 ;
+}
+button{
+    margin-top:25px;
+    color:#FE56FF;
+    border-color: aqua;
+    border-radius:29px;
+}
+.text
+{
+    text-align:left;
+    color:#FFFF00;
+}
+h1
+{
+    color:#39FF14
+}
+.op
+{
+    margin-top:10px;
+    color:#1E90FE;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WordCalculator</title>
+   
+
+
+    
+</head>
+<body>
+    <div class="length">
+        <h1>Word Length Calculator</h1>
+    
+    <textarea rows="10" id="word" cols="75" class="text"></textarea>
+    <br>
+
+    
+    <button id="btn">click to calculate</button>
+    </div>
+    <div id="op" class="op"></div>
+</body>
+<script>
+    let button=document.getElementById("btn");
+button.addEventListener("click",function()
+{
+    let str=document.getElementById("word").value;
+    let count=str.length;
+    str.innerHTML=count;
+   let output=document.getElementById("op")
+
+   output.innerHTML="length of the data entered is: "+count;
+    // console.log(count);
+
+})
+</script>
+</html>
